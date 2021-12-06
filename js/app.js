@@ -3,5 +3,5 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js');
 			console.log('soy el service Worker registrado y funcionando.')
 		})
-	})
+	}
 }
